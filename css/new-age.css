@@ -58,6 +58,9 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+ul li{
+	list-style: none;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -456,7 +459,7 @@ img::-moz-selection {
 	font-size: 11px;
 }
 /*table*/
-table#miyazaki { 
+table.table-produk { 
   margin: 0 auto;
   border-collapse: collapse;
   font-family: Agenda-Light, sans-serif;
@@ -465,32 +468,32 @@ table#miyazaki {
   text-rendering: optimizeLegibility;
   border-radius: 5px; 
 }
-table#miyazaki caption { 
+table.table-produk caption { 
   font-size: 2rem; color: #444;
 }
-table#miyazaki thead th { font-weight: 600; }
-table#miyazaki thead th, table#miyazaki tbody td { 
+table.table-produk thead th { font-weight: 600; }
+table.table-produk thead th, table.table-produk tbody td { 
   padding: .8rem; font-size: 1.4rem;
 }
-table#miyazaki tbody td { 
+table.table-produk tbody td { 
   padding: .8rem; font-size: 1.4rem;
   color: #444; background: #eee; 
 }
-table#miyazaki tbody tr:not(:last-child) { 
+table.table-produk tbody tr:not(:last-child) { 
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;  
 }
 
 @media screen and (max-width: 600px) {
-  table#miyazaki caption { background-image: none; }
-  table#miyazaki thead { display: none; }
-  table#miyazaki tbody td { 
+  table.table-produk caption { background-image: none; }
+  table.table-produk thead { display: none; }
+  table.table-produk tbody td { 
     display: block; padding: .6rem; 
   }
-  table#miyazaki tbody tr td:first-child { 
+  table.table-produk tbody tr td:first-child { 
     background: #666; color: #fff; 
   }
-	table#miyazaki tbody td:before { 
+	table.table-produk tbody td:before { 
     content: attr(data-th); 
     font-weight: bold;
     display: inline-block;
