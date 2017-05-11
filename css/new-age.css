@@ -307,14 +307,14 @@ section.features .feature-item i {
     max-width: none;
   }
 }
-section.features {
+section.download {
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/bg-bg.jpg');
   padding: 100px 0;
   color: #fff;
 }
@@ -455,10 +455,49 @@ img::-moz-selection {
 #layananproduk{
 	font-size: 11px;
 }
-table.dataTable tbody th, table.dataTable tbody td{
-	padding: 8px 5px;
-	width: 100px;
+/*table*/
+table#miyazaki { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #333; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px; 
 }
+table#miyazaki caption { 
+  font-size: 2rem; color: #444;
+}
+table#miyazaki thead th { font-weight: 600; }
+table#miyazaki thead th, table#miyazaki tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+}
+table#miyazaki tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+  color: #444; background: #eee; 
+}
+table#miyazaki tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+@media screen and (max-width: 600px) {
+  table#miyazaki caption { background-image: none; }
+  table#miyazaki thead { display: none; }
+  table#miyazaki tbody td { 
+    display: block; padding: .6rem; 
+  }
+  table#miyazaki tbody tr td:first-child { 
+    background: #666; color: #fff; 
+  }
+	table#miyazaki tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;  
+  }
+}
+/*end table*/
 .read-more-state {
   display: none;
 }
@@ -580,6 +619,7 @@ table.dataTable tbody th, table.dataTable tbody td{
 	background: rgba(253, 202, 74, 0.4);
 	width:100%;
 }
+/*slider*/
 #slides {
   position: relative;
 }
@@ -646,6 +686,24 @@ table.dataTable tbody th, table.dataTable tbody td{
 .slides-pagination a.current {
   background: #222;
 }
+.deco {padding:30px 25px;margin-top:20px;background:rgba(29, 104, 158, 0.8);color:#ecf0f1;font-size:20px;z-index:1;}
+#parentWrap_1{max-width: 1250px;}
+.slide {width: auto;margin: 0 auto;position: relative;}
+.slide h2{
+	font-size: 30px!important;
+}
+.slide .overflow{overflow: hidden;width:auto;max-width:1250px;margin: 0 85px;position: relative;}
+.slide .panelWrap{overflow: hidden;margin-left:0;padding-left: 0px}
+.slide .panel{float:left;position:relative;line-height:25px;    margin: 0;
+    background: none;
+    border: none;
+    border-radius: 0px;
+list-style: none}
+.slide .nav{color:white;font-weight:bold;background:#5ACEAA;padding:0px 12px;line-height:50px;cursor:pointer;border-radius:5px;text-align: center;margin: auto 0;position: absolute;top: 50%;transform: translate(0, -50%);transition:opacity 400ms;}
+.slide .prev{left:0px;}
+.slide .next{right:0px;}
+.inactive{opacity:0.5;cursor:default!important;}
+/*end slide*/
 .toggle-box {
   display: none;
 }
@@ -727,7 +785,7 @@ table.dataTable tbody th, table.dataTable tbody td{
 
 /* back, initially hidden pane */
 .back {
-	background: rgba(24, 90, 157, 0.5);
+/*	background: rgba(24, 90, 157, 0.5);*/
 	padding: 10px;
 	transform: rotateY(180deg);
 }

@@ -1,168 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<title>Synet</title>
 
-    <title>Synet</title>
+		<!-- Bootstrap Core CSS -->
+		<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<!-- Plugin CSS -->
+		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
+		<link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+		<!-- Theme CSS -->
+		<link href="css/new-age.css" rel="stylesheet">
+	</head>
 
-    <!-- Theme CSS -->
-    <link href="css/new-age.css" rel="stylesheet">
+	<body id="page-top">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" class="lg-synet"></a>
+				</div>
 
-</head>
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" class="lg-synet"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#download">About Us</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#features">Product & Service</a>
-                    </li>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
 <!--
-                    <li class="dropdown">
-					  <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product & Service <span class="caret"></span></a>
-					  <ul class="dropdown-menu">
-						<li><a href="#">Pembelian</a></li>
-						<li><a href="#">Pembayaran</a></li>
-						<li><a href="#">Format Transaksi</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">FAQ</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">Pendaftaran Member Baru</a></li>
-					  </ul>
-					</li>
+						<li>
+							<a class="page-scroll" href="#download">About Us</a>
+						</li>
 -->
-                    <li class="dropdown">
-					  <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Member Area <span class="caret"></span></a>
-					  <ul class="dropdown-menu">
-						<li><a class="page-scroll" href="#member">Informasi Member</a></li>
-						<li><a href="https://trx.synet.co.id/">Login Web Transaksi</a></li>
-						<li><a class="page-scroll" href="#member">Bantuan Member</a></li>
-					  </ul>
-					</li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact Us</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </nav>
+						<li>
+							<a class="page-scroll" href="#download">News & Articles</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#features">Product & Service</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Member Area <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a class="page-scroll" href="#member">Informasi Member</a></li>
+								<li><a href="https://trx.synet.co.id/">Login Web Transaksi</a></li>
+								<li><a class="page-scroll" href="#member">Bantuan Member</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact Us</a>
+						</li>
 
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="header-content">
-                        <div class="header-content-inner">
-                            <h1>Synet, Smart Choices For Your Partnership Business!</h1>
-                            <a href="#joinus" class="btn btn-outline btn-xl page-scroll btn-join">Ayo Gabung Sekarang!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
-                                <div class="screen">
-                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-<!--                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">-->
-                                </div>
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-    <section id="download" class="download bg-primary text-center">
-        <div class="container">
-            <div class="">
-                <div class="col-md-12">
-                <div id="slides">
-					<div class="slides-container">
-				  		<div class="slideOne">
-						   	<h2 class="section-heading col-md-offset-1 col-xs-offset-1 col-md-10 col-xs-11 col-sm-12">Synet E-Business Gateway</h2><br>
-							<p>
-							<div class="col-md-offset-1 col-xs-offset-1 col-md-10 col-xs-11 col-sm-12">
-								Kami adalah Perusahaan  memiliki layanan berbasis Teknologi Informasi Digital yang menerapkan sistem E-Business Gateway, dengan Brand “ SYNET”, Synet menggabungkan bermacam unit bisnis didalam satu sistem yang terintegrasi dalam E-Business Gateway, untuk selanjutnya dapat menjadi peluang usaha dan dijalankan oleh seluruh masyarakat Indonesia yang ingin menjadi Wirausahawan ( Entrepreneur),baik perorangan, UMKM, Koperasi, maupun Badan Usaha. Dengan berbagai ribuan pilihan produk usaha yang terdapat di Synet. Untuk saat ini kami meluncurkan brand produk unggulan yaitu “ SynPAY”, dan dalam beberapa waktu kedepan kami juga akan mengeluarkan  beberapa Brand Produk unggulan lainnya yang tidak kalah menarik guna menunjang mitra wirausaha synet dalam mengembangkan usahanya bersama synet.  Maka sangat  tepatlah bagi seluruh lapisan masyarakat  yang ingin berwirausaha dan atau meningkatkan produk usahanya, dengan  bergabung bersama Synet.  <br><br>
-								SynPAY adalah Brand Produk dari Synet yang mengintegrasikan layanan utilities diital online, baik dari layanan Pembayaran tagihan, pembelian pulsa selular, paket data internet, token PLN, voucher tv berbayar, game online, Ticket pesawat, kereta, Reservasi Hotel, wahana wisata, event dan olahraga. Dengan tagline “ segalanya mudah, mudah segalanya” SynPAY mengutamakan kemudahan kemudahan para mitra wirausaha dalam diversifikasi produk usahanya, kemudahan bertransaksi dan meningkatkan volume usahanya.
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-7">
+						<div class="header-content">
+							<div class="header-content-inner">
+								<h1>Synet, Smart Choices For Your Partnership Business!</h1>
+								<a href="#joinus" class="btn btn-outline btn-xl page-scroll btn-join">Ayo Gabung Sekarang!</a>
 							</div>
-                   			</p>
-                    	</div>
-				  		<div class="slideTwo">
-				  			<h2 class="section-heading col-md-offset-1 col-xs-offset-1 col-md-10 col-xs-11 col-sm-12">Visi & Misi Synet</h2><br>
-							<p>
-							<div class="col-md-offset-1 col-xs-offset-1 col-md-10 col-xs-11 col-sm-12">
-								Visi :
-								Menjadi Perusahaan E-Business Gateway yang terlengkap , terpercaya dan berorientasi kepada kepuasan Pelanggan serta mengedepankan pelayanan terbaik kepada para mitra wirausaha yang berbasis Teknologi Informasi digital terkini.<br><br>
-								Misi :
-								Menciptakan peluang usaha dan diversifikasi usaha kepada perorangan, usaha kecil dan menengah ( UKM), koperasi, badan usaha, dan masyarakat luas, 
-								Menciptakan Entrepeneur/ Wirausaha baru yang tangguh dan handal melalui Synet E-Business Gateway serta membantu Pemerintah dalam perwujudan satu ( 1 ) Juta Wirausahawan mandiri
-								Memberikan pelayanan kepada pelanggan secara mudah, cepat dan hemat dalam hal keperluan pembayaran dan pembelian produk, di seluruh pelosok nusantara, sehingga pelanggan dapat melakukan keperluan transaksi tidak perlu pergi jauh  dari kediaman tinggal, yang dibantu oleh para mitra wirausahawan synet di seluruh Indonesia
-								Melakukan pembinaan, retensi dan monitoring yang berkesinambungan kepada para mitra wirausahawan synet dengan berorientasi kepada kepuasan pelanggan.
-								Meningkatkan Transaksi bisnis mitra wirausahawan  guna peningkatan pendapatan, taraf hidup mitra pelaku usaha untuk menjadi Wirausahawan Sukses bersama Synet
-							</div>
-							</p>
 						</div>
 					</div>
+					<div class="col-sm-5">
+						<div class="device-container">
+							<div class="device-mockup iphone6_plus portrait white">
+								<div class="device">
+									<div class="screen">
+										<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+										<!--                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">-->
+									</div>
+									<div class="button">
+										<!-- You can hook the "home button" to some JavaScript events or just remove it -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-					<nav class="slides-navigation">
-					  <a href="#" class="next"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></a>
-					  <a href="#" class="prev"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></a>
-					</nav>
+		<section id="download" class="download text-center">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="deco"> <!-- PRESENTAZIONALE -->
+						<!-- SLIDE -->
+						<div id="parentWrap_1" class="slide">
+							<div class="overflow">
+								<ul class="panelWrap">
+									<li class="panel">
+										<h2>Synet E-Business Gateway</h2>
+										<p>
+											Kami adalah Perusahaan  memiliki layanan berbasis Teknologi Informasi Digital yang menerapkan sistem E-Business Gateway, dengan Brand “ SYNET”, Synet menggabungkan bermacam unit bisnis didalam satu sistem yang terintegrasi dalam E-Business Gateway, untuk selanjutnya dapat menjadi peluang usaha dan dijalankan oleh seluruh masyarakat Indonesia yang ingin menjadi Wirausahawan ( Entrepreneur),baik perorangan, UMKM, Koperasi, maupun Badan Usaha. Dengan berbagai ribuan pilihan produk usaha yang terdapat di Synet. Untuk saat ini kami meluncurkan brand produk unggulan yaitu “ SynPAY”, dan dalam beberapa waktu kedepan kami juga akan mengeluarkan  beberapa Brand Produk unggulan lainnya yang tidak kalah menarik guna menunjang mitra wirausaha synet dalam mengembangkan usahanya bersama synet.  Maka sangat  tepatlah bagi seluruh lapisan masyarakat  yang ingin berwirausaha dan atau meningkatkan produk usahanya, dengan  bergabung bersama Synet.  <br><br>
+											SynPAY adalah Brand Produk dari Synet yang mengintegrasikan layanan utilities diital online, baik dari layanan Pembayaran tagihan, pembelian pulsa selular, paket data internet, token PLN, voucher tv berbayar, game online, Ticket pesawat, kereta, Reservasi Hotel, wahana wisata, event dan olahraga. Dengan tagline “ segalanya mudah, mudah segalanya” SynPAY mengutamakan kemudahan kemudahan para mitra wirausaha dalam diversifikasi produk usahanya, kemudahan bertransaksi dan meningkatkan volume usahanya. [&hellip;]</p>
+									</li>
+									<li class="panel">
+										<h2>Visi & Misi Synet</h2>
+										<p>
+											Visi :
+											Menjadi Perusahaan E-Business Gateway yang terlengkap , terpercaya dan berorientasi kepada kepuasan Pelanggan serta mengedepankan pelayanan terbaik kepada para mitra wirausaha yang berbasis Teknologi Informasi digital terkini.<br><br>
+											Misi :
+											Menciptakan peluang usaha dan diversifikasi usaha kepada perorangan, usaha kecil dan menengah ( UKM), koperasi, badan usaha, dan masyarakat luas, 
+											Menciptakan Entrepeneur/ Wirausaha baru yang tangguh dan handal melalui Synet E-Business Gateway serta membantu Pemerintah dalam perwujudan satu ( 1 ) Juta Wirausahawan mandiri
+											Memberikan pelayanan kepada pelanggan secara mudah, cepat dan hemat dalam hal keperluan pembayaran dan pembelian produk, di seluruh pelosok nusantara, sehingga pelanggan dapat melakukan keperluan transaksi tidak perlu pergi jauh  dari kediaman tinggal, yang dibantu oleh para mitra wirausahawan synet di seluruh Indonesia
+											Melakukan pembinaan, retensi dan monitoring yang berkesinambungan kepada para mitra wirausahawan synet dengan berorientasi kepada kepuasan pelanggan.
+											Meningkatkan Transaksi bisnis mitra wirausahawan  guna peningkatan pendapatan, taraf hidup mitra pelaku usaha untuk menjadi Wirausahawan Sukses bersama Synet [&hellip;]</p>
+									</li>
+									<li class="panel">
+										<p>Silahkan tambahkan [&hellip;]</p>
+									</li>
+								</ul>
+							</div>
+							<span class="nav prev">PREV</span>
+							<span class="nav next">NEXT</span>
+						</div>
+						<!-- // SLIDE -->
+
+					</div>
 				</div>
-				</div>
-            </div>
-        </div>
-    </section>
-   	<section id="features" class="features">
-    	<div class="container">
-			<div class="row">
+			</div>
+		</section>
+
+		<section id="features" class="features bg-primary">
+			<div class="container">
+				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="">
 							<h2>Segalanya mudah, Mudah segalanya</h2>
@@ -171,307 +153,351 @@
 						</div>
 					</div>
 				</div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="feature-item">
-                                    <i class="icon-screen-smartphone text-primary"></i>
-                                    <h3>Bisnis Pembelian Voucher & Pembayaran PPOB</h3>
-                                    <div class="text-bright">
-                                    <input type="checkbox" class="read-more-state" id="post-2" />
-                                    	<ul class="read-more-wrap text-left">
-											<li>Harga Produk yang ekonomis untuk dipakai sendiri maupun untuk dijadikan usaha</li>
-											<li>Siapapun dimanapun dapat bergabung menjadi wirausaha synet</li>
-											<li>Modal ringan untuk ribuan produk usaha, dengan satu deposit untuk semua transaksi</li>
-											<li>Flexibel, dapat dijalankan dimana saja, kapan saja tanpa batasan waktu dan tempat</li>
-											<li>Transaksi dapat dilakukan 24 jam nonstop,7 hari seminggu</li>
-											<li class="read-more-target">Deposit ringan , dengan nominal 50rb anda sudah bisa bertransaksi</li>
-										</ul>
-                                   	<label for="post-2" class="read-more-trigger"></label>
-                                    	
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="feature-item">
-                                    <i class="icon-camera text-primary"></i>
-                                    <h3>Produk <br></h3>
-                                    <div class="text-bright text-left">
-									<br><br>
-									<div class="col-md-offset-4">
-									<label for="Voucher">Voucher</label>
-									
-												<ul>
-													<li>Voucher TV<br>
-													<ul>
-														<li>OrangeTV</li>
-														<li>KVision</li>
-													</ul>
-													</li>
-													<li>Voucher Selular<br></li>
-													<li>Paket Data Internet<br></li>
-													<li>Voucher Game<br></li>
-													<li>Voucher PLN Prabayar<br></li>
-												</ul>
-									
-									<br><br>
-									<label for="PPOB">Produk Pembayaran (PPOB)</label>
-									
-										<ul>
-											<li>BPJS</li>
-											<li>PLN</li>
-										</ul>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="feature-item">
+										<i class="icon-screen-smartphone text-primary"></i>
+										<h3>Bisnis Pembelian Voucher & Pembayaran PPOB</h3>
+										<div class="text-bright">
+											<input type="checkbox" class="read-more-state" id="post-2" />
+											<ul class="read-more-wrap text-left">
+												<li>Harga Produk yang ekonomis untuk dipakai sendiri maupun untuk dijadikan usaha</li>
+												<li>Siapapun dimanapun dapat bergabung menjadi wirausaha synet</li>
+												<li>Modal ringan untuk ribuan produk usaha, dengan satu deposit untuk semua transaksi</li>
+												<li>Flexibel, dapat dijalankan dimana saja, kapan saja tanpa batasan waktu dan tempat</li>
+												<li>Transaksi dapat dilakukan 24 jam nonstop,7 hari seminggu</li>
+												<li class="read-more-target">Deposit ringan , dengan nominal 50rb anda sudah bisa bertransaksi</li>
+											</ul>
+											<label for="post-2" class="read-more-trigger"></label>
+
+										</div>
 									</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="feature-item">
-                                    <i class="icon-present text-primary"></i>
-                                    <h3>Cara Transaksi / Metode Transaksi</h3>
-                                    <div class="text-bright text-left">
-                                    	<div class="flip-container " ontouchstart="this.classList.toggle('hover');">
-											<div class="flipper">
-												<div class="front text-center">
-													<h1> Via SMS
-													<br>
-													<i class="icon-envelope"></i></h1>
-												</div>
-												<div class="back">
-													<input class="toggle-box" id="ceksaldo" type="checkbox" >
-													<label for="ceksaldo">Format Cek Saldo</label>
-													<div>SAL.PIN contoh SAL.1234</div>
+								</div>
+								<div class="col-md-6">
+									<div class="feature-item">
+										<i class="icon-present text-primary"></i>
+										<h3>Cara Transaksi / Metode Transaksi</h3>
+										<div class="text-bright text-left">
+											<div class="flip-container " ontouchstart="this.classList.toggle('hover');">
+												<div class="flipper">
+													<div class="front text-center">
+														<h1> Via SMS
+															<br>
+															<i class="icon-envelope"></i></h1>
+													</div>
+													<div class="back">
+														<input class="toggle-box" id="ceksaldo" type="checkbox" >
+														<label for="ceksaldo">Format Cek Saldo</label>
+														<div>SAL.PIN contoh SAL.1234</div>
 
-													<input class="toggle-box" id="belipulsa" type="checkbox" >
-													<label for="belipulsa">Format Pembelian Voucher Pulsa</label>
-													<div>Nominal.No_HP.Pin  Contoh : 10.081212335603.1234
-													(nominal dalam ribuan)</div>
+														<input class="toggle-box" id="belipulsa" type="checkbox" >
+														<label for="belipulsa">Format Pembelian Voucher Pulsa</label>
+														<div>Nominal.No_HP.Pin  Contoh : 10.081212335603.1234
+															(nominal dalam ribuan)</div>
 
-													<input class="toggle-box" id="belipln" type="checkbox" >
-													<label for="belipln">Format Pembelian Voucher PLN</label>
-													<div>Kode_Produk.ID_PLN.NO_HP_PELANGGAN.PIN  <br>Contoh : PLN20.8787938121.081212335603.1234</div>
+														<input class="toggle-box" id="belipln" type="checkbox" >
+														<label for="belipln">Format Pembelian Voucher PLN</label>
+														<div>Kode_Produk.ID_PLN.NO_HP_PELANGGAN.PIN  <br>Contoh : PLN20.8787938121.081212335603.1234</div>
 
-													<input class="toggle-box" id="belivocertv" type="checkbox" >
-													<label for="belivocertv">Format Pembelian Voucher Tv</label>
-													<div>Kode_produk.no_decoder.pin </div>
+														<input class="toggle-box" id="belivocertv" type="checkbox" >
+														<label for="belivocertv">Format Pembelian Voucher Tv</label>
+														<div>Kode_produk.no_decoder.pin </div>
 
-													<input class="toggle-box" id="belipaketdata" type="checkbox" >
-													<label for="belipaketdata">Format Pembelian Paket data atau Voucher Game</label>
-													<div>Kode_produk.no_hp.pin  </div>
+														<input class="toggle-box" id="belipaketdata" type="checkbox" >
+														<label for="belipaketdata">Format Pembelian Paket data atau Voucher Game</label>
+														<div>Kode_produk.no_hp.pin  </div>
 
-													<input class="toggle-box" id="bayartagihan" type="checkbox" >
-													<label for="bayartagihan">Format Pembayaran Tagihan (PPOB)</label>
-													<div>Tag.Kode_produk.Id_Pel.Pin</div>
-													
-													<input class="toggle-box" id="formatbayar" type="checkbox" >
-													<label for="formatbayar">Format Bayar</label>
-													<div>Bayar.ReffId.Pin</div>
+														<input class="toggle-box" id="bayartagihan" type="checkbox" >
+														<label for="bayartagihan">Format Pembayaran Tagihan (PPOB)</label>
+														<div>Tag.Kode_produk.Id_Pel.Pin</div>
 
-													<input class="toggle-box" id="lainformat" type="checkbox" >
-													<label for="lainformat">Format lainnya</label>
-													<div>Dll nanti akan dilengkapi </div>
+														<input class="toggle-box" id="formatbayar" type="checkbox" >
+														<label for="formatbayar">Format Bayar</label>
+														<div>Bayar.ReffId.Pin</div>
+
+														<input class="toggle-box" id="lainformat" type="checkbox" >
+														<label for="lainformat">Format lainnya</label>
+														<div>Dll nanti akan dilengkapi </div>
+													</div>
 												</div>
 											</div>
 										</div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-		</div>
-    </section>
-	
-  	<section id="joinus">
-  		<div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h2>Registrasi Member</h2>
-                        <p class="text-muted text-capitalize">SYNET MERANCANG SISTEM UNTUK MENCIPTAKAN PELUANG USAHA MENJADI WIRAUSAHWAN MANDIRI BAGI SELURUH MASYARAKAT INDONESIA DAN BERSEMANGAT BERSAMA UNTUK MEMBANTU PEMERINTAH DALAM GERAKAN SATU JUTA WIRAUSAHAWAN MANDIRI</p>
-                        <hr>
-                        <form class="form-horizontal text-left">
-						  <div class="form-group">
-							<label for="nama" class="col-sm-2 control-label">Nama Lengkap</label>
-							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap">
+									</div>
+								</div>
 							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="email" class="col-sm-2 control-label">Email</label>
-							<div class="col-sm-10">
-							  <input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="produk">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="feature-item">
+							<i class="icon-camera text-primary"></i>
+							<h3>Produk <br></h3>
+							<div class="text-bright text-left">
+								<br><br>
+								<div class="col-md-4">
+									<label for="Voucher">Voucher</label>
+
+									<ul>
+										<li>Voucher TV<br>
+											<ul>
+												<li>OrangeTV</li>
+												<li>KVision</li>
+											</ul>
+										</li>
+										<li>Voucher Selular<br></li>
+										<li>Paket Data Internet<br></li>
+										<li>Voucher Game<br></li>
+										<li>Voucher PLN Prabayar<br></li>
+									</ul>
+
+									<br><br>
+									<label for="PPOB">Produk Pembayaran (PPOB)</label>
+
+									<ul>
+										<li>BPJS</li>
+										<li>PLN</li>
+									</ul>
+								</div>
+								<div class="col-md-4">
+									<table id="miyazaki">
+										<caption>Axis</caption>
+										<thead>
+											<tr>
+												<th>KODE</th>
+												<th>HARGA</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>AX5</td>
+												<td>5000</td>
+											</tr>
+											<tr>
+												<td>AX5</td>
+												<td>5000</td>
+											</tr>
+											<tr>
+												<td>AX5</td>
+												<td>5000</td>
+											</tr>
+											<tr>
+												<td>AX5</td>
+												<td>5000</td>
+											</tr>
+											<tr>
+												<td>AX5</td>
+												<td>5000</td>
+											</tr>
+											<tr>
+												<td>AX5</td>
+												<td>5000</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="no-ktp" class="col-sm-2 control-label">No KTP</label>
-							<div class="col-sm-10">
-							  <input class="form-control" id="no-ktp" placeholder="No KTP">
-							</div>
-						  </div>
-						  <fieldset class="form-group">
-						  <label class="col-sm-2 control-label">Jenis Kelamin</label>
-						  <div class="col-sm-10">
-						  	<div class="form-check">
-							  <label class="form-check-label">
-								<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>  Laki-Laki
-							  </label>
-							</div>
-							<div class="form-check">
-							<label class="form-check-label">
-								<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">  Perempuan
-							  </label>
-							</div>
-						  </div>
-						  </fieldset>
-						  <div class="form-group">
-							<label for="tl" class="col-sm-2 control-label">Tempat Lahir</label>
-							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="tl" placeholder="Tempat Lahir">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="ttl" class="col-sm-2 control-label">Tanggal Lahir</label>
-							<div class="col-sm-10">
-							  <input type="date" class="form-control" id="ttl" placeholder="Tanggal Lahir">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="tlp" class="col-sm-2 control-label">No.Telp / HP</label>
-							<div class="col-sm-10">
-							  <input type="number" class="form-control" id="tlp" placeholder="No.Telp / HP">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="hape" class="col-sm-2 control-label">No.HP Transaksi</label>
-							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="hape" placeholder="No.HP Transaksi">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="address" class="col-sm-2 control-label">Alamat</label>
-							<div class="col-sm-10">
-							  <textarea class="form-control" id="address" rows="3"></textarea>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="prov" class="col-sm-2 control-label">Provinsi</label>
-							<div class="col-sm-10">
-							  <select class="form-control" id="prov">
-								  <option>1</option>
-								  <option>2</option>
-								  <option>3</option>
-								  <option>4</option>
-								  <option>5</option>
-							  </select>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="kec" class="col-sm-2 control-label">Kecamatan</label>
-							<div class="col-sm-10">
-							  <select class="form-control" id="kec">
-								  <option>1</option>
-								  <option>2</option>
-								  <option>3</option>
-								  <option>4</option>
-								  <option>5</option>
-							  </select>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="kelurahan" class="col-sm-2 control-label">Kelurahan</label>
-							<div class="col-sm-10">
-							  <select class="form-control" id="kelurahan">
-								  <option>1</option>
-								  <option>2</option>
-								  <option>3</option>
-								  <option>4</option>
-								  <option>5</option>
-							  </select>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="kota" class="col-sm-2 control-label">Kota</label>
-							<div class="col-sm-10">
-							  <select class="form-control" id="kota">
-								  <option>1</option>
-								  <option>2</option>
-								  <option>3</option>
-								  <option>4</option>
-								  <option>5</option>
-							  </select>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="why" class="col-sm-2 control-label">Alasan Mengapa Tertarik Bergabung Dengan SYNET</label>
-							<div class="col-sm-10">
-							  <textarea class="form-control" id="why" rows="3"></textarea>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<div class="col-sm-offset-2 col-sm-10">
-							  <button type="button" class="btn btn-primary">Submit</button>
-							</div>
-						  </div>
-						</form>
-                    </div>
-                </div>
-            </div>
-        </div>
-  		
-  	</section>
-  	
-   	<section id="member" class="member">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h2>Member</h2>
-                        <p class="text-muted">Untuk dapat mengakses data di halaman ini, anda diharuskan melakukan verifikasi data ID Member dan No.Handphone terlebih dahulu!</p>
-                        <hr>
-                        <form class="form-horizontal">
-						  <div class="form-group">
-							<label for="inputEmail3" class="col-sm-2 control-label">ID Member</label>
-							<div class="col-sm-10">
-							  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-							<div class="col-sm-10">
-							  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-							</div>
-						  </div>
-						  <div class="form-group text-left">
-							<div class="col-sm-offset-2 col-sm-10">
-							  <div class="checkbox">
-								<label>
-								  <input type="checkbox"> Remember me
-								</label>
-							  </div>
-							</div>
-						  </div>
-						  <div class="form-group text-left">
-							<div class="col-sm-offset-2 col-sm-10">
-							  <button type="submit" class="btn btn-default">Submit</button>
-							</div>
-						  </div>
-						</form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   
-    <section id="contact" class="contact bg-primary">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="overflow-map">
-						<h2>CONTACT</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="joinus">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-heading">
+							<h2>Registrasi Member</h2>
+							<p class="text-muted text-capitalize">SYNET MERANCANG SISTEM UNTUK MENCIPTAKAN PELUANG USAHA MENJADI WIRAUSAHWAN MANDIRI BAGI SELURUH MASYARAKAT INDONESIA DAN BERSEMANGAT BERSAMA UNTUK MEMBANTU PEMERINTAH DALAM GERAKAN SATU JUTA WIRAUSAHAWAN MANDIRI</p>
+							<hr>
+							<form class="form-horizontal text-left">
+								<div class="form-group">
+									<label for="nama" class="col-sm-2 control-label">Nama Lengkap</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="nama" placeholder="Nama Lengkap">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="no-ktp" class="col-sm-2 control-label">No KTP</label>
+									<div class="col-sm-10">
+										<input class="form-control" id="no-ktp" placeholder="No KTP">
+									</div>
+								</div>
+								<fieldset class="form-group">
+									<label class="col-sm-2 control-label">Jenis Kelamin</label>
+									<div class="col-sm-10">
+										<div class="form-check">
+											<label class="form-check-label">
+												<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>  Laki-Laki
+											</label>
+										</div>
+										<div class="form-check">
+											<label class="form-check-label">
+												<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">  Perempuan
+											</label>
+										</div>
+									</div>
+								</fieldset>
+								<div class="form-group">
+									<label for="tl" class="col-sm-2 control-label">Tempat Lahir</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="tl" placeholder="Tempat Lahir">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="ttl" class="col-sm-2 control-label">Tanggal Lahir</label>
+									<div class="col-sm-10">
+										<input type="date" class="form-control" id="ttl" placeholder="Tanggal Lahir">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="tlp" class="col-sm-2 control-label">No.Telp / HP</label>
+									<div class="col-sm-10">
+										<input type="number" class="form-control" id="tlp" placeholder="No.Telp / HP">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="hape" class="col-sm-2 control-label">No.HP Transaksi</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="hape" placeholder="No.HP Transaksi">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="address" class="col-sm-2 control-label">Alamat</label>
+									<div class="col-sm-10">
+										<textarea class="form-control" id="address" rows="3"></textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="prov" class="col-sm-2 control-label">Provinsi</label>
+									<div class="col-sm-10">
+										<select class="form-control" id="prov">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="kec" class="col-sm-2 control-label">Kecamatan</label>
+									<div class="col-sm-10">
+										<select class="form-control" id="kec">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="kelurahan" class="col-sm-2 control-label">Kelurahan</label>
+									<div class="col-sm-10">
+										<select class="form-control" id="kelurahan">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="kota" class="col-sm-2 control-label">Kota</label>
+									<div class="col-sm-10">
+										<select class="form-control" id="kota">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="why" class="col-sm-2 control-label">Alasan Mengapa Tertarik Bergabung Dengan SYNET</label>
+									<div class="col-sm-10">
+										<textarea class="form-control" id="why" rows="3"></textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="button" class="btn btn-primary">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="member" class="member">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-heading">
+							<h2>Member</h2>
+							<p class="text-muted">Untuk dapat mengakses data di halaman ini, anda diharuskan melakukan verifikasi data ID Member dan No.Handphone terlebih dahulu!</p>
+							<hr>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">ID Member</label>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+									<div class="col-sm-10">
+										<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+									</div>
+								</div>
+								<div class="form-group text-left">
+									<div class="col-sm-offset-2 col-sm-10">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Remember me
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group text-left">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-default">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact bg-primary">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="overflow-map">
+							<h2>CONTACT</h2>
 							<p class="information">
 								<span class="icon-location"> Address : </span>
 								18 Office Park, 22th Floor
@@ -480,56 +506,56 @@
 								021 - 7710636
 								support@synet.co.id
 							</p>
-						<ul class="list-inline list-social">
-							<li class="social-twitter">
-								<a href="http://twitter.com/synetmedia"><i class="fa fa-twitter"></i></a>
-							</li>
-							<li class="social-facebook">
-								<a href="http://facebook.com/synetmedia"><i class="fa fa-facebook"></i></a>
-							</li>
-							<li class="social-google-plus">
-								<a href="#"><i class="fa fa-google-plus"></i></a>
-							</li>
-						</ul>
-					</div>
-					<div id="map_canvas"></div>
-				</div>	
+							<ul class="list-inline list-social">
+								<li class="social-twitter">
+									<a href="http://twitter.com/synetmedia"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li class="social-facebook">
+									<a href="http://facebook.com/synetmedia"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li class="social-google-plus">
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+								</li>
+							</ul>
+						</div>
+						<div id="map_canvas"></div>
+					</div>	
+				</div>
 			</div>
-		</div>
-	</section>
-   
-    <footer>
-        <div class="container">
-            <p>&copy; Copyright Synet 2017, All rights reserved.</p>
-            <ul class="list-inline">
-                <li>
-                    <a href="#">Privacy</a>
-                </li>
-                <li>
-                    <a href="#">Terms</a>
-                </li>
-                <li>
-                    <a href="#">FAQ</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+		</section>
 
-    <!-- jQuery -->
-    <script src="lib/jquery/jquery.min.js"></script>
+		<footer>
+			<div class="container">
+				<p>&copy; Copyright Synet 2017, All rights reserved.</p>
+				<ul class="list-inline">
+					<li>
+						<a href="#">Privacy</a>
+					</li>
+					<li>
+						<a href="#">Terms</a>
+					</li>
+					<li>
+						<a href="#">FAQ</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<!-- jQuery -->
+		<script src="lib/jquery/jquery.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-  	<script src="lib/jquery/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Bootstrap Core JavaScript -->
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/new-age.js"></script>
+		<!-- Plugin JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+		<script src="lib/jquery/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
 
-</body>
+		<!-- Theme JavaScript -->
+		<script src="js/new-age.js"></script>
+
+	</body>
 
 </html>
